@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-api"
+version = "0.1.0"
+description = "Notebooks to chat with GPT via APIs"
+authors = ["Dev Gill <26435947+sdevgill@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "gpt_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
